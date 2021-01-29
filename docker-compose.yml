@@ -1,0 +1,8 @@
+version: '3'
+services:
+  watcher-test:
+    container_name: watcher-test
+    build:
+      context: .
+    volumes:
+      - ./input:/src/input-test
